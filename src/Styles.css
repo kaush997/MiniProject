@@ -1,0 +1,172 @@
+
+
+   /* Home.css */
+
+   .Home-container{
+    margin-top: -200px;
+   }
+
+
+.welcome-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #004747;
+  align-items: center; 
+  margin-bottom: -20px;
+
+}
+
+.sub-heading {
+  text-align: left;
+  margin-top: -50px;
+ 
+
+}
+
+.sub-heading p {
+  font-size: 36px;
+  color: black;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+.sub-heading2 {
+  text-align: left;
+  margin-top: -60px;
+
+}
+
+.sub-heading2 p {
+  font-size: 36px;
+  color: black;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+
+/*Search.css*/
+
+.Search-container {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.FaceRecognition-image {
+  position: absolute;
+  box-sizing: border-box;
+  flex: 5;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  margin-top: 0px;
+  margin-right: 50%;
+  width: 630px;
+  height: 700px;
+}
+
+.Search-content{
+  margin-left: 0;
+}
+
+.Search-investigation{
+  margin-left: 80px;
+}
+
+.Search-options{
+  margin-left: -25px;
+  margin-top: 50px;
+}
+
+.Search-searchtypebox{
+    margin-left: -82px;
+    margin-top: -50px;
+}
+
+.Search-searchbutton{
+    margin-top: 40px;
+    margin-left: 718px;
+}
+
+/*SearchBiometrics.css*/
+
+.SearchBiometrics-container{
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.Biometrics-investigation{
+    margin-top: -610px;
+    margin-left: 80px;
+}
+
+.Biometrics-options{
+  margin-left: -20px;
+}
+
+.Biometrics-buttons{
+  margin-left: -275px;
+  margin-top: 40px;
+}
+
+.Biometrics-searchbutton{
+  margin-left: 720px;
+  margin-top: 40px;
+}
+
+/*Reports.css*/
+
+.Reports-container{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px; 
+    box-sizing: border-box; 
+  
+}
+
+/*ReportResponse.css*/
+
+.ReportResponse-container{
+  background:  rgb(108, 107, 107);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+
+.Reportbox-container{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+
+.image-pdf{
+    margin-left: 275px;
+    margin-top: -290px;
+}
+
+.DownloadButton-response{
+  margin-top: 70px;
+  margin-left: 275px;
+}
+
+

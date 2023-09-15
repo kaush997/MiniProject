@@ -1,0 +1,451 @@
+/* Navigationbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E0E1FC;
+    color: black;
+    height: 100px; 
+    padding: 0 20px;
+    border-radius: 0 0 20px 20px;
+   
+  }
+      
+   .navbar-left {
+      display: flex;
+      align-items: center;
+    }
+    
+    .navbar-center{
+      padding: 10px 0; 
+      text-align: right; 
+    }
+  
+    .navbar-icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    
+    .navbar-title {
+      color:#000066;
+      font-size: xx-large;
+      font-weight: bold;  
+    }
+    
+    .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 50px;
+    }
+    
+    .navbar-links a {
+      text-decoration:none;
+      color: #000066;
+      font-size: medium;
+      font-weight: bold;
+      margin-top: auto;
+      
+    }
+
+  .user-button {
+      background: none;
+      background-color: #000066;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px; 
+      border-radius: 50px; 
+      width: 100%;
+    }
+    
+    .profile-picture-frame {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid white;
+    }
+    
+    .profile-picture {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-color: white;
+    }
+    
+    .username {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: white;
+      flex: 1; 
+    }
+    
+    /* Footer */
+  
+    .footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #E0E1FC;
+      color: black;
+      padding: 20px;
+      border-radius: 20px 20px 0 0;
+      position: absolute;
+      width: 97.4%;
+      margin-top: auto; 
+    }
+      .text01{
+        
+        font-size: xx-large;
+        color: #000066;
+        margin-top:20px ;
+        font-weight: bold !important;
+        
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+      
+      .icon {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .text {
+        margin: 5px 0;
+      }
+      
+      .title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .link,
+      .social-link {
+        cursor: pointer;
+        margin: 5px 0;
+      }
+      
+      .social-img {
+        width: 20px; 
+        height: 20px; 
+        margin-right: 5px;
+      }
+      .social-icon {
+        display: flex;
+        align-items: center;
+      }
+    
+      .subpart{
+        font-size: 14px; 
+        color: ash; 
+        margin-left: 25px; 
+      }
+    
+      .logo1{
+        width: 50px;
+        height: 50px;
+        
+      }
+      .two-line-text {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .text02{
+        color: #000066;
+        margin-left: 10px;
+      }
+    .text03{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    /*Investigation.css*/
+
+    .Investigation-container{
+        margin-top: 80px;
+        margin-left: 640px;
+
+    }
+
+    .Investigation-text{
+        font-size: 50px;
+        color: #004747;
+        font-weight: bold;
+
+    }
+    
+    .Investigation-content{
+        font-size: 22px;
+        color: black;
+        font-weight: bold;
+        line-height: 12px;
+
+    }
+
+    /*Options.css*/
+
+    .search-options {
+        display: flex;
+        align-items: center; 
+        margin: 30px 0 0 740px;
+      }
+      
+      .search-options label {
+        display: flex;
+        align-items: center;
+        margin-right: 22px; 
+        cursor: pointer;
+      
+      }
+      
+      .search-options input[type="radio"] {
+        margin-right: 10px;
+        color: black;
+      }
+
+      /*SearchButton.css*/
+
+    .search-button {
+        width: 460px;
+        height: 34px;
+        font-size: 16px;
+        color: #FFFFFF;
+        background-color: #000066;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+  
+      /*SearchTypeBox.css*/
+      .search-box {
+        display: flex;
+        align-items: center;
+        margin: 100px 0 0 800px;
+       
+      }
+      
+      .search-input {
+        width: 450px;
+        height: 34px;
+        padding: 5px;
+        font-size: 14px;
+        color: #6a6565;
+        border: 2px solid #000000;
+        border-radius: 8px;
+      
+      }
+
+      /*ScanBox.css*/
+
+.scan-box {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    margin: 50px 0 0 50px;
+    
+  }
+  
+  .rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+  }
+  
+  .line.line-7 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 12px;
+    top: 68px;
+    border: 3px solid #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .line.line-9 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 478px;
+    top: 480px;
+    border: 3px solid #000000;
+    transform: rotate(-90deg);
+  }
+
+  .line.line-13 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 478px;
+    top: 68px;
+    border: 3px solid #000000;
+    transform: rotate(-90deg);
+  }
+
+  .line.line-12 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 12px;
+    top: 480px;
+    border: 3px solid #000000;
+    transform: rotate(-90deg);
+  }
+
+  .line.line-8 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 40px;
+    top: 40px;
+    border: 3px solid #000000;
+  }
+
+  .line.line-10 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 449px;
+    top: 508px;
+    border: 3px solid #000000;
+  }
+
+  .line.line-14 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 449px;
+    top: 40px;
+    border: 3px solid #000000;
+  }
+
+  .line.line-11 {
+    position: absolute;
+    width: 55px;
+    height: 0;
+    left: 40px;
+    top: 508px;
+    border: 3px solid #000000;
+  }
+  
+/*BiometricsButtons.jsx*/
+
+.biometrics-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button {
+    color: #ffffff;
+    border: 2px black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    margin: 5px;
+  }
+ 
+  .button-scan-face {
+    background-color: #B72E2E;
+    margin-left: 1000px;
+  }
+
+  .button-upload-photo {
+    background-color: #000066;
+  }
+
+  .button-fingerprint {
+    background-color: #004747;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+  }
+
+  /*ReportBox.css*/
+
+.Report-options {
+  display: flex;
+  flex-direction: column;
+  margin: 175px 0 0 550px;
+}
+
+.Report-options label {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.ab{
+  color: rgb(53, 51, 51);
+  font-size: 16px;
+  margin-left: 10px;
+}
+.Request-input{
+  width: 450px;
+  height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  color: #9F9F9F;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: -60px;
+  margin-right: 10px; 
+  margin-top: -80 px;
+}
+.Request-button{
+  width: 460px;
+  height: 34px;
+  margin-top: 30px;
+  margin-left: 535px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #000066;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Request-box{
+  display: flex;
+  align-items: center;
+  margin: 20px  0 0 595px;
+ 
+}
+
+/*DownloadButton.css*/
+
+.Download-button{
+    color: #ffffff;
+    border: 2px black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    background-color: #004747;
+    margin: 5px;
+}
+
+
+
+  
