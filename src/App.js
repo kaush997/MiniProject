@@ -13,7 +13,7 @@ import Evidences from './Pages/Evidences';
 import Reports from './Pages/Reports';
 import Support from './Pages/Support';
 import ReportResponse from './Pages/ReportResponse';
-import Sidebar from './Components/Sidebar';
+
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
         <Route path="/Reports" element={<Reports/>} /> 
         <Route path="/Support" element={<Support/>} />
         <Route path="/ReportResponse" element={<ReportResponse/>} />
-        <Route path="/Sidebar" element={<Sidebar/>} />  
+        
       </Routes>
      <footer>
      <Footer/>
